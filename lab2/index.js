@@ -6,21 +6,15 @@ const server = http
   })
   .listen(8000, "127.0.0.1");
 function getTitles(res) {
-  fs.readFile("./titles.json", function (err, data) {
-    if (err) {
-      hadError(err, res);
-    } else {
-      getTemplate(JSON.parse(data.toString()), res);
-    }
+    fs.readFile("./titles.json", function (err, data) {
+        if (err) return hadError(err, res);
+        getTemplate(JSON.parse(data.toString()), res);
   });
 }
 function getTemplate(titles, res) {
-  fs.readFile("./template.html", function (err, data) {
-    if (err) {
-      hadError(err, res);
-    } else {
-      formatHtml(titles, data.toString(), res);
-    }
+    fs.readFile("./template.html", function (err, data) {
+        if (err) return hadError(err, res);
+        formatHtml(titles, data.toString(), res);
   });
 }
 function formatHtml(titles, tmpl, res) {
