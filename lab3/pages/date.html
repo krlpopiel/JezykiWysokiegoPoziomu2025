@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Data i czas</title>
+  <style>
+    body { font-family: Arial; margin: 2em; background: #f8fafc; text-align: center; }
+    a { color: #2563eb; text-decoration: none; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,.1); display: inline-block; }
+    #clock { font-size: 1.5em; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Aktualna data i czas</h1>
+    <div id="clock">--:--:--</div>
+    <p><a href="/">← Powrót</a></p>
+  </div>
+
+  <script>
+    function pad(n){ return n.toString().padStart(2, '0'); }
+    function updateClock(){
+      const d = new Date();
+      document.getElementById('clock').textContent =
+        pad(d.getDate()) + '.' + pad(d.getMonth()+1) + '.' + d.getFullYear() + ' ' +
+        pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds());
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
+</body>
+</html>
