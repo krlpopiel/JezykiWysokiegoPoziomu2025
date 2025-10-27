@@ -3,6 +3,7 @@ import HelloWithProps from "./HelloWithProps"
 import Counter from "./Counter"
 import InputTracker from "./InputTracker";
 import LoginStatus from "./LoginStatus";
+import TodoList from "./TodoList";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <InputTracker/>
       <LoginStatus isLoggedIn={1}/>
       <LoginStatus isLoggedIn={0}/>
+      <TodoList todos={['Odfajkować ćwiczenia z Reacta', 'Zrobić zadanie 1']} />
     </div>
   );
 }
