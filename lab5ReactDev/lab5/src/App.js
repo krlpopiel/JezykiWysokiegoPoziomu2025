@@ -1,6 +1,7 @@
 import './App.css';
 import ScoreDisplay from './ScoreDisplay';
 import TaskList from './TaskList';
+import TimerCounter from './TimerCounter';
 import ToggleDetails from './ToggleDetails';
 import UserList from './UserList';
 
@@ -13,6 +14,7 @@ function App() {
       <ScoreDisplay score={100}/>
       <TaskList></TaskList>
       <UserList></UserList>
+      <TimerCounter></TimerCounter>
     </div>
   );
 }
