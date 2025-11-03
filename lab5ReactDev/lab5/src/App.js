@@ -2,6 +2,7 @@ import './App.css';
 import ScoreDisplay from './ScoreDisplay';
 import TaskList from './TaskList';
 import ToggleDetails from './ToggleDetails';
+import UserList from './UserList';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ScoreDisplay score={50}/>
       <ScoreDisplay score={100}/>
       <TaskList></TaskList>
+      <UserList></UserList>
     </div>
   );
 }
