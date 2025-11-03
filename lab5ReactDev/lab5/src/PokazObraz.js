@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import slodkaPara from './slodkaPara.png';
 
 function PokazObraz() {
     const [visible, setVisible] = useState(false);
@@ -11,7 +12,7 @@ function PokazObraz() {
         <div>
             <button onClick={showImage}>KLIKNIJ MNIE</button>
             <br></br>
-            {visible && <img src="/slodkaPara.png" alt="Słodka para" width={250} height={250}/>}
+            {visible && <img src={slodkaPara} alt="Słodka para" width={250} height={250}/>}
         </div>
     );
 }
