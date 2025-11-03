@@ -1,11 +1,13 @@
 import './App.css';
 import MyszNad from './MyszNad';
 import ObsluzKlik from './ObsluzKlik';
+import PokazObraz from './PokazObraz';
 import ScoreDisplay from './ScoreDisplay';
 import TaskList from './TaskList';
 import TimerCounter from './TimerCounter';
 import ToggleDetails from './ToggleDetails';
 import UserList from './UserList';
+import ZaladujJsona from './ZaladujJsona';
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
       <ObsluzKlik></ObsluzKlik>
       <hr></hr>
       <MyszNad></MyszNad>
+      <hr></hr>
+      <PokazObraz></PokazObraz>
+      <hr></hr>
+      <ZaladujJsona></ZaladujJsona>
     </div>
   );
 }

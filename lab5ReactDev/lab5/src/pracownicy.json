@@ -1,0 +1,7 @@
+{
+"pracownicy":[
+  {"Imie":"Jan", "Nazwisko":"Paweł"},
+  {"Imie":"Jan", "Nazwisko":"Paweł II"},
+  {"Imie":"Michał", "Nazwisko":"Białek"}
+]
+}
