@@ -7,7 +7,9 @@ import TaskList from './TaskList';
 import TimerCounter from './TimerCounter';
 import ToggleDetails from './ToggleDetails';
 import UserList from './UserList';
+import WyludzPlik from './WyludzPlik';
 import ZaladujJsona from './ZaladujJsona';
+import ZmienStyl from './ZmienStyl';
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
       <PokazObraz></PokazObraz>
       <hr></hr>
       <ZaladujJsona></ZaladujJsona>
+      <hr></hr>
+      <WyludzPlik></WyludzPlik>
+      <hr></hr>
+      <ZmienStyl></ZmienStyl>
     </div>
   );
 }
