@@ -4,6 +4,7 @@ import ClickCounter from './ClickCounter';
 import PrimeCalculator from './PrimeCalculator';
 import FormReducer from './FormReducer';
 import { useTheme, ThemeProvider } from "./ThemeContext"
+import LayoutEffectExample from './LayoutEffectExample';
 
 
 function ThemeSwitcher() {
@@ -30,6 +31,8 @@ function App() {
       <ThemeProvider>
       <ThemeSwitcher/>
       </ThemeProvider>
+      <hr></hr>
+      <LayoutEffectExample/>
     </div>
   );
 }
