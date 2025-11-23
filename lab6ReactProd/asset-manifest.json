@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.77d96615.js",
-    "static/js/453.4c6200fc.chunk.js": "/static/js/453.4c6200fc.chunk.js",
-    "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.77d96615.js.map": "/static/js/main.77d96615.js.map",
-    "453.4c6200fc.chunk.js.map": "/static/js/453.4c6200fc.chunk.js.map"
+    "main.css": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/css/main.f855e6bc.css",
+    "main.js": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/js/main.b6165b67.js",
+    "static/js/453.4c6200fc.chunk.js": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/js/453.4c6200fc.chunk.js",
+    "index.html": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/index.html",
+    "main.f855e6bc.css.map": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/css/main.f855e6bc.css.map",
+    "main.b6165b67.js.map": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/js/main.b6165b67.js.map",
+    "453.4c6200fc.chunk.js.map": "/JezykiWysokiegoPoziomu2025/lab6ReactProd/static/js/453.4c6200fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.77d96615.js"
+    "static/js/main.b6165b67.js"
   ]
 }
